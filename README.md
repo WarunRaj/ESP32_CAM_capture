@@ -19,7 +19,7 @@ The board takes a photo at regular intervals (default: every 5 seconds), names i
 4. Connect ESP32-CAM to FTDI adapter:
   U0T ↔ TX, U0R ↔ RX, GND ↔ GND, 5V ↔ 5V
   Short IO0 to GND while uploading.
-5. Upload the code. Source: {photo.ino} Includes: {camera_pins.ino}
+5. Upload the code. Source: {photo.ino} Includes: {camera_pins.h}
 6. Insert formatted microSD card.
 7. Reset the board and open Serial Monitor (115200 baud).
 
